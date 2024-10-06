@@ -15,3 +15,23 @@ The LogisticRegression , KNN , DecisionTrees and SVC are used to fit and predict
 GridSearch CV is used to fine tune the hyper paramaters to find the best estimator.
 
 The model and features suggested are determined on accuracy and processing speed of the model .
+
+
+Ensemble techniques and prediction scores:
+
+RandomForestClassifier
+print(oob_scores)
+0.6838154863443716[n_tree = 1 - ]
+0.9946116103617466[n_tree = 10]
+
+GradientBoostingRegressor
+0.9986728211259185
+
+
+BaggingClassifier
+0.9996541394814437
+
+AdaBoostClassifier 
+0.9995779329265075
+
+Acccuracy obtained from Classifiers are not much different from ensemble techniques appied.
